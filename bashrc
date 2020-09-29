@@ -144,3 +144,8 @@ ex ()
 # ( ) # Hide shell job control messages.
 (cat ~/.cache/wal/sequences &)
 
+
+# Python Virtual Environment Wrapper
+export WORKON_HOME=~/.virtualenvs
+source /usr/bin/virtualenvwrapper_lazy.sh
+
